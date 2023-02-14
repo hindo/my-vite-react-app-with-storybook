@@ -8,7 +8,8 @@ const meta = {
   component: Button,
   tags: ['autodocs'],
   argTypes: {
-    backgroundColor: { control: 'color' },
+    intent: { control: 'select' },
+    size: { control: 'select' },
   },
 } satisfies Meta<typeof Button>
 
