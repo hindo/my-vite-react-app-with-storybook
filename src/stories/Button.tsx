@@ -1,5 +1,5 @@
-import React from 'react'
 import { cva, type VariantProps } from 'class-variance-authority'
+import React from 'react'
 
 export type ButtonVariants = VariantProps<typeof button>
 const button = cva(['font-semibold', 'border', 'rounded'], {
