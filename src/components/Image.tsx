@@ -1,5 +1,3 @@
-import React from 'react'
-
 type ImageProps = {
   source: string
   alt: string

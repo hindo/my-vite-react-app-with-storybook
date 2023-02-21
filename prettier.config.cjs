@@ -7,5 +7,5 @@ module.exports = {
   jsxSingleQuote: true,
   bracketSpacing: true,
   organizeImportsSkipDestructiveCodeActions: false,
-  plugins: ['prettier-plugin-organize-imports', require('prettier-plugin-tailwindcss')],
+  plugins: [require('prettier-plugin-organize-imports'), require('prettier-plugin-tailwindcss')],
 }
